@@ -34,12 +34,13 @@ III. Finally, we provide our conclusions and recommendations for future work.
 
 # Folder Description
 
-The URL with the code and our analysis is on the GitHub website:  [\textcolor{blue}{https://github.com/jjhosker/CaseStudy1}](https://github.com/jjhosker/CaseStudy1).  It contains the following important files:
+The URL with the code and our analysis is on the GitHub website:  [\textcolor{blue}{https://github.com/jjhosker/CaseStudy1}](https://github.com/jjhosker/CaseStudy1.git).  It contains the following important files:
 
->1.  README:  This file provides more information in detail of each of the files in the GitHub directory provided above. 
+>1.  README:  his file provides instructions on how to run the R code and provides information in detail of each of the files in the GitHub repository.
+
 >2.  RMakefile_CaseStudy1.R:  This file can be found in the Analysis sub-directory under this GitHub repository.   It is the main R makefile that takes the cleaned data and performs all the analysis required for this project and in this report. In cleaning the data, we read in the csv files and in some cases re-name variables and reset data types.  In addition, we remove NAs and blanks in the data.  Finally, we merge the data by the unique country code in both datasets and create and output one cleaned and merged dataset (GDPFEDclean).
 
->3.  Makefile_GatherData.R:  This file can be found in the Analysis/Data sub-directory under this GitHub repository.  This R makefile installs all required R-libraries and then loads the R-libraries.  Second, this R makefile downloads in the csv data files from the World Bank websites using URLs, reads the downloaded csv files, creates the raw data, and creates the cleaned datasets.   Finally, this R makefile merges the GDP with the Federal Statistical dataset and creates one a clean data set.  This makefile then saves all these dataset to the Analysis/Data sub-directory.  
+>3.  Makefile_GatherData.R:  This file can be found in the Analysis/Data sub-directory under this GitHub repository.  This R makefile installs all required R-libraries and then loads the R-libraries.  Second, this R makefile downloads in the csv data files from the World Bank websites using URLs, reads the downloaded csv files, creates the raw data, and creates the cleaned datasets.   Finally, this R makefile merges the GDP with the Federal Statistical dataset and creates one a clean data set.  This makefile then saves all these datasets to the Analysis/Data sub-directory.  
 
 >4.  PlotFunctions_CaseStudy1.R:  In the Anlaysis subdirectory of this GitHub repository, this R Makefile loads plot functions to plot Figures 1 and 2 used in RMakefile_CaseStudy1.R and CaseStudy1PDF.Rmd.
 
@@ -57,7 +58,7 @@ The URL with the code and our analysis is on the GitHub website:  [\textcolor{bl
 Before beginning please review the README.md file in GitHub website [\textcolor{blue}{https://github.com/jjhosker/CaseStudy1}](https://github.com/jjhosker/CaseStudy1).  In short, download and clone the GitHub repository and the sub-directories.  RMakefile_CaseStudy1.R should be executed in the Analysis sub-directory of this GitHub repository; and CaseStudy1PDF.Rmd can be executed from this GitHub repository.  
 
 >1. In the Analysis sub-directory in this repository, execute the main R source code RMakefile_CaseStudy1.R to load all the libraries, read the raw data, create the cleaned data and perform the analysis for this client study.  The csv files will be created in the same directory as the project that you created on your computer.  In addition, we save the R session information and all the libraries and packages being utilized.  
->     - In the Analysis sub-directory in this repository, the RMakefile_CaseStudy.R executes the makefile Makefile_GatherData.R, which installs the packages and load the libraries.  A message indicating that the libraries loaded may appear after executing the R code that follows.  If a failure occurs, please check the function "packagelibrary.check" in the Makefile_GatherData.R and/or the SessionInfo.txt file, both found in the Analysis/Data sub-directory.
+>     - The RMakefile_CaseStudy.R executes the makefile Makefile_GatherData.R, which installs the packages and load the libraries.  A message indicating that the libraries loaded may appear after executing the R code that follows.  If a failure occurs, please check the function "packagelibrary.check" in the Makefile_GatherData.R and/or the SessionInfo.txt file, both found in the Analysis/Data sub-directory.
 
 >2. To generate this report, execute CaseStudy1PDF.Rmd in this GitHub repository.  Please note the required installations of software to generate the PDF is detailed in the prior section, Folder Description. 
  
