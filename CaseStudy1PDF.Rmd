@@ -86,7 +86,6 @@ cat(paste("Variable names are:", toString(variable.names(GDPFEDclean)[1:4]),"\n"
 
 >2.  We can see that the out merged dataset that we use 7 major variables for this analysis:  CountryCode, GDPRank, Economy, GDP_MillUSD, Long.Name, Income.Group and Region.
 
-\newpage
 ## Key Point #2: GPD & GDP Rank by Country
 The R code below finds the 13th lowest ranked country by GDP (ranked lowest to highest).  For more details, see R-code section Key Point #2 in RMakefile_CaseStudy1.R.
 ```{r}
