@@ -26,7 +26,7 @@ II.  We rank the 2012 cleaned dataset by increasing GDP in USD millions and brea
 
 >3. For the high income: OECD and nonOECD country income groups, we compared the mean and summary statistics for GDP rankings and GDP in USD millions.  
 
->4. We plot GDP for all of the countries and plot GDPs by country income group.  In addition, we provide summary statistics GDP ranks by country income groups.
+>4. We plot GDP for many countries and plot GDPs by country income group.  In addition, we provide summary statistics GDP ranks by country income groups.
 
 >5.  We separate the country GDP ranks into 5 separate quantile groups, making a table of increasing GDPs with country income groups.   In addition, we determine how many countries are lower middle income but among the 38 nations with highest GDPs globally.  Perhaps these countries will have income group upgrades in the future, if GDP continues to remain high and expand.  
 
@@ -42,7 +42,7 @@ The URL with the code and our analysis is on the GitHub website:  [\textcolor{bl
 
 >3.  Makefile_GatherData.R:  This file can be found in the Analysis/Data sub-directory under this GitHub repository.  This R makefile installs all required R-libraries and then loads the R-libraries.  Second, this R makefile downloads in the csv data files from the World Bank websites using URLs, reads the downloaded csv files, creates the raw data, and creates the cleaned datasets.   Finally, this R makefile merges the GDP with the Federal Statistical dataset and creates one a clean data set.  This makefile then saves all these datasets to the Analysis/Data sub-directory.  
 
->4.  PlotFunctions_CaseStudy1.R:  In the Anlaysis subdirectory of this GitHub repository, this R Makefile loads plot functions to plot Figures 1 and 2 used in RMakefile_CaseStudy1.R and CaseStudy1PDF.Rmd.
+>4.  PlotFunctions_CaseStudy1.R:  In the Analysis subdirectory of this GitHub repository, this R Makefile loads plot functions to plot Figures 1 and 2 used in RMakefile_CaseStudy1.R and CaseStudy1PDF.Rmd.
 
 >5.  There are three data files created below:  two raw datsets downloaded from the World Bank URLs and one cleaned dataset.   In addition, we provide a text file (SessionsInfo.txt) containing all the R session information including the current R version and all the libraries and packages being utilized.  All of the files below can be found in the Analysis/Data sub-directory under this GitHub repository.
 >     - Raw:  FEDSTATS_Country.csv
