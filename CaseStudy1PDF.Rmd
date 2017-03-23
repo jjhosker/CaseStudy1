@@ -109,9 +109,9 @@ cat(paste("The mean GDP rank of the High Income: nonOECD income group is",
 ```
 >1.  GDP Rank give highest GDP at 1 and lowest at 190.
 
->2. Here we analyze the data and find that the mean GDP Rankfor the high income:  OECD countries is 32.97 (higher) and the mean GDP for the high income:  OECD countries is $1,483,917 million.  
+>2. Here we analyze the data and find that the mean GDP rank for the high income:  OECD countries is 32.97 (higher) and the mean GDP for the high income:  OECD countries is $1,483,917 million.  
 
->3. Here we analyze the data and find that the mean GDP Rank for the high income:  non-OECD countries is lower at 91.97 (lower) and the mean GDP for the high income:  non-OECD countries is $104,349.8 million. 
+>3. Here we analyze the data and find that the mean GDP rank for the high income:  non-OECD countries is lower at 91.97 (lower) and the mean GDP for the high income:  non-OECD countries is $104,349.8 million. 
 
 \newpage
 ## Key Point #4:  Graphs & Summary Stats on Country GDPs vs. Income Groups
@@ -209,7 +209,7 @@ In this report, we addressed five major or key points.
 > - Fourth, we find that in general that those classified in the low income group have the lowest GDPs, followed by the lower middle income group with slightly higher GDPs and then followed by the upper middle income group.  Finally, we see that the high income group of OECD countries has the higher GDPs of any income group category.  The high income group with non-OECD countries has a similar GDPs (mean GDP rank 92.17) compared to the upper middle income group (mean GDP rank 92.13).
 
 > - Fifth we show that when we break GDP by rank into five quintiles in ascending order, we generally see that the lower quintiles (Q1) have the lower income and the lower middle income groups, while the upper quintiles (Q5) have the high income group with OECD countries.   One exception is that China is still classified as part of the lower middle income group with the second largest GDP in the world.    
->       - In addition, we found those countries that are in the "Lower Middle income" group and are among the top 38 nations with the highest GDP using the GDP Rank.  These five countries may have the potential to have their income group category upgraded in future years:  Egypt (EGY), Thailand (THA), Indonesia (IDN), India (IND) and China (CHN).
+>       - In addition, we found those countries that are in the "Lower Middle income" group and are among the top 38 nations with the highest GDP using the GDP rank.  These five countries may have the potential to have their income group category upgraded in future years:  Egypt (EGY), Thailand (THA), Indonesia (IDN), India (IND) and China (CHN).
 
 # Future Work
 We have explored much in this dataset but there is still more to analyze.  We could analyze GDP or GDP rank to the region the country is in (e.g. Europe & Central Asia, Latin America & Caribbean, East Asia & Pacific, Sub-Saharan Africa, etc.).   In addition, we could look at the last census of each country and compare that to GDP or GDP rank.  Another comparison, is looking at GDP versus the type of government (consolidated or budgetary) or system of trade (general or specific).
